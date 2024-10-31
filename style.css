@@ -1,13 +1,15 @@
-
+/* Makes elements with the "active" class visible, overriding other display settings */
 .active {
     display: block !important;
 }
 
+/* Hides elements with the "myText" class by default */
 .myText {
     display: none;
 }
 
+/* Sets font size and background color for elements with the "title" class */
 .title {
-    font-size: 1.5em;
-    background-color: #ddd;
+    font-size: 1.5em;      /* Increases font size for emphasis */
+    background-color: #ddd; /* Light gray background for contrast */
 }
